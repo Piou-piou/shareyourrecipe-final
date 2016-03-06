@@ -1,0 +1,835 @@
+.grid {
+	position:absolute;
+	width:960px;
+	height:325%;
+	margin:auto;
+	background:url(../12_col.gif) repeat-y ;
+	opacity:0.6;
+}
+body {
+	background-image:url(image-interface/fond.jpg);
+	background-repeat:repeat;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	height: 100%;
+	text-decoration:none;
+}
+
+a {
+	text-decoration:none;	
+}
+
+.clear {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.inner {
+	width: 960px;
+	margin: 0 auto;
+}
+
+@font-face {
+    font-family:''Passion One', cursive;';
+    src:url('../police/'Passion One', cursive;.ttf');
+	font-weight:30;
+}
+
+.content {
+	z-index:99;
+}
+
+p {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+}
+
+h2 {
+	font-family: 'Passion One', cursive;
+	color: #000;
+	font-weight:30;
+	font-size:28px;
+	
+}
+
+/*MENU*/
+
+/*INSCRITION CONNECTION*/
+.connect{
+height:30px;
+display: block;
+background-color:black;
+}
+
+.txtinscription{
+	display: block;
+    float: right;
+	margin-right: 10px;
+}
+
+.txtinscription li{
+
+    float: left;
+	list-style:none;
+	margin-left: 10px;
+	margin-top: 7px;
+}
+
+.txtinscription li:first-child{
+
+    border-right:1px solid white;
+	padding-right:10px;
+
+}
+.inscription a{
+    display: inline;
+    float: right;
+	color:white;
+}
+.connection a{
+    display: inline;
+    float: right;
+	color:white;
+}
+
+/*HGROUPE*/
+.banniere {
+	background-image:url(image-interface/banniere.jpg);
+	background-repeat:repeat-x;
+	height:168px;
+	box-shadow: 1px 1px 40px #555;
+}
+
+h1 {
+	font-family: 'Passion One', cursive;
+	color: #523f36; /*marron*/
+	font-weight:30;
+	font-size:26px;
+}
+
+hgroup {
+	background-image:url(image-interface/arc.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+    float: left;
+    margin: 20px 0 0 0px;
+	height:148px;
+	width:400px;
+}
+.titre {
+	margin-left:100px;
+}
+
+.titre img{
+	margin-left:10px;
+}
+
+#your{
+	color:#FFF;
+}
+
+
+/*NAVIGATION*/
+
+nav {
+    display: block;
+    float: left;
+    margin-top: 13px;
+	width:960px;
+	margin: auto;
+	
+}
+
+nav li{
+	float:left;
+	list-style:none;
+    height: 28px;
+	margin-right: 40px;
+	margin-top:12px;
+	margin-left:10px;
+}
+
+nav li a {
+	color:white;
+}
+
+nav li a:hover {
+	color: #a7d61d; /*vert*/
+}
+
+.navcolor{
+	background-image:url(image-interface/fontnav.png);
+	background-repeat:repeat-x;
+	height:41px;
+	display: block;
+}
+
+.HeaderReseauxSociaux {
+	float:right;
+	margin-top:7px;
+	margin-right:10px;
+}
+/*CONTENU*/
+
+
+/*SLIDE*/
+/*TIME*/
+.slider>.contenu>div {
+	width:280px;
+   height:180px;
+   position: absolute;
+   top: 0;
+   left: 0;
+  -webkit-transition: -webkit-transform 1s ease-in-out;
+  -moz-transition: -moz-transform 1s ease-in-out;
+  -o-transition: -o-transform 1s ease-in-out;
+  -ms-transition: -ms-transform 1s ease-in-out;
+  transition: transform 1s ease-in-out;
+}
+
+.slider>.contenu> .avant-0 {
+  -webkit-transform: translateX(-932px);
+  -moz-transform: translateX(-932px);
+  -o-transform: translateX(-932px);
+  -ms-transform: translateX(-932px);
+  transform: translateX(-932px);
+}
+
+.slider>.contenu> .apres-0 {
+    -webkit-transform: translateX(932px);
+    -moz-transform: translateX(932px);
+    -o-transform: translateX(932px);
+    -ms-transform: translateX(932px);
+    transform: translateX(932px);
+}
+
+.slider>.contenu> .avant-1 {
+  -webkit-transform: translateX(-1864px);
+  -moz-transform: translateX(-1864px);
+  -o-transform: translateX(-1864px);
+  -ms-transform: translateX(-1864px);
+  transform: translateX(-1864px);
+}
+
+.slider>.contenu> .apres-1 {
+    -webkit-transform: translateX(1864px);
+    -moz-transform: translateX(1864px);
+    -o-transform: translateX(1864px);
+    -ms-transform: translateX(1864px);
+    transform: translateX(1864px);
+}
+
+.slider>.contenu> .courant {
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -o-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+/*FIN TIME*/
+
+.contenu>div {
+		width:932px;
+	height:275px;
+	float:left;
+}
+
+#slider .slide {
+	width:932px;
+	height:275px;
+	float:left;
+}
+
+#slider .contenu {
+	width:2812px;
+	height:275px;
+	position:absolute;
+}
+
+.slider {
+	width:932px;
+	height:275px;
+	overflow:hidden;
+	position: relative;
+}
+
+#navigationSlide li {
+	list-style: none;
+	float:left;
+}
+
+#slider {
+	margin-left:10px;
+	margin-top:30px;
+	border:4px solid #cdcac9;
+	position: relative;
+}
+
+.courant .texte {
+	background-image: url(image-interface/fontslide.png);
+	background-repeat:no-repeat;
+	height:275px;
+	width:334px;
+	position: absolute;
+	margin-top:-276px;
+	margin-left:598px;
+	color:#FFF;
+}
+
+.courant  .texte p {
+	width:250px;
+	margin-left:30px;
+	margin-top:25px;
+	line-height:18px;
+}
+
+.courant  .texte h2 {
+	width:250px;
+	margin-left:30px;
+	margin-top:40px;
+	color: #FFF;
+}
+
+.courant .texte a {
+	color: #FFF;
+}
+
+.courant .texte a:hover {
+	color: #a7d61d;
+}
+
+.texteJeux {
+	width:410px;
+	margin-right:65px;
+	color: #523f36; /*marron*/
+	position: absolute;
+	margin-top:-210px;
+	margin-left:460px;
+	line-height:30px;
+}
+
+.texteJeux h2 {
+	font-family: 'Passion One', cursive;
+	color: #a7d61d; /*vert*/
+	font-size:72px;
+	margin-bottom:13px;
+	
+	
+}
+
+.texteJeux p{
+	font-family: 'Passion One', cursive;
+	color: #523f36; /*marron*/
+	font-size:48px;	
+}
+
+.texteJeux p #color{
+	color: #a7d61d; /*vert*/	
+}
+
+.texteJeux p #cook{
+	font-size:36px;
+}
+
+.texteJeux p #cours{
+	font-size:30px;
+}
+
+.texteJeux p #lots{
+	font-size:24px;
+}
+
+
+#navigationSlide {
+	float:right;
+	margin-top:10px;
+	margin-right:10px;
+
+}
+
+#navigationSlide li a{
+	background-color: #a7d61d; /*vert*/
+	height:20px;
+	width:20px;
+	padding:2px 7px 2px 7px;
+	margin-left:3px;
+	color:#000;
+}
+
+#navigationSlide li a:hover{
+	background-color: #523f36; /*marron*/
+	color: #fff;
+}
+
+#navigationSlide li.click > a {
+	background-color: #523f36; /*marron*/
+}
+
+
+/*COLONNE*/
+
+.colGauche {
+	float:left;
+	margin-left:10px;
+	width:620px;
+	padding-top:30px;
+}
+
+.colDroite {
+	float:right;
+	width:292px;
+	margin-right:20px;
+}
+
+/*RECETTE SEMAINE*/
+.recettesemaine {
+	position: relative;
+	
+}
+
+.recettesemaine img {
+	margin-top:23px;
+	border:4px solid #cdcac9;
+	float:left;
+}
+
+.RStexte {
+	background-image:url(image-interface/fontRS.png);
+	background-repeat:no-repeat;
+	height:141px;
+	width:369px;
+	position: absolute;
+	margin-top:27px;
+	margin-left:250px;
+	padding:20px 0px 0px 60px;
+	
+}
+
+.newsletter1 {
+    margin-top: 18px;
+}
+
+.rechercher {
+	background-image:url(image-interface/vert.jpg);
+	background-repeat:repeat;
+    border: 4px solid #CDCAC9;
+    margin-top: 30px;
+    width: 292px;
+	height: 190px;
+}
+
+.recherchefont {
+	background-image:url(image-interface/arcbloc.png);
+	background-repeat:no-repeat;
+	background-position:bottom;	
+	height: 190px;
+	width: 292px;
+}
+
+.rechercher .texte p {
+	margin-top:30px;
+	font-weight:bold;
+	float:left;
+}
+
+.rechercher  a {
+	color:#000;
+}
+
+.rechercher .texte img {
+	float:left;
+	margin-top:25px;
+	margin-left:10px;
+}
+
+.rechercher .bouton input {
+	border:none;
+	background-image:url(image-interface/bouton.jpg);
+	background-repeat:repeat-x;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #000;
+	font-size:14px;
+	cursor: pointer;
+	width:100px;
+	height:25px;
+	padding-bottom:6px;
+	margin-left:170px;
+}
+.rechercher .bouton input:hover {
+	color: #523f36; /*marron*/
+}
+
+.newsletter1 .bouton2 input {
+	border:none;
+	background-image:url(image-interface/bouton2.jpg);
+	background-repeat:repeat-x;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #000;
+	font-size:14px;
+	cursor: pointer;
+	width:100px;
+	height:25px;
+	padding-bottom:6px;
+	margin-left:200px;
+}
+
+.newsletter1 .bouton2 input:hover {
+	color:#FFF;
+}
+
+.rechercher input[type="text"] {
+	border: 1px solid #000;
+	box-shadow: 1px 1px 7px #898989;
+	height:31px;
+}
+
+.newsletter1 input[type="text"] {
+	border: 1px solid #000;
+	box-shadow: 1px 1px 7px #898989;
+	height:31px;
+}
+
+.newsletter1 input[type="text"] {
+	width:298px;
+}
+
+.rechercher input[type="text"] {
+	width:270px;
+}
+
+.content .texte {
+	padding:10px;
+}
+
+
+/*TOP10*/
+.top10 {
+    background-image:url(image-interface/vert.jpg);
+	background-repeat:repeat;
+    border: 4px solid #CDCAC9;
+    float: left;
+    margin-top: 30px;
+	height: 350px;
+    width: 292px;
+}
+
+.top10font {
+	background-image:url(image-interface/arcbloc.png);
+	background-repeat:no-repeat;
+	background-position:bottom;	
+	height: 350px;
+	width: 292px;
+}
+.top10 p:last-child{
+	float:right;
+}
+
+
+.image {
+	width:230px;
+	height:80px;
+	margin-top:5px;
+}
+
+.image img{
+	float:left;
+}
+
+.image p {
+	padding-left: 90px;
+	color: #000;
+}
+
+.image p:nth-child(4) {
+	color: #FFF;
+	margin-top:10px;
+}
+
+.top10 .top10font .texte > p {
+	font-weight:bold;
+	color: #000;
+}
+
+.top10 .top10font .texte > p a {
+	color:#000;
+}
+ 
+
+
+/*AJOUTER RECETTES*/
+.ajouterrecette {
+	background-image:url(image-interface/marron.jpg);
+	background-repeat:repeat;
+    border: 4px solid #CDCAC9;
+    float: left;
+    height: 350px;
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 292px;
+	color:#FFF;
+	
+}
+
+.ajouterrecette h2 {
+	color:#FFF;
+}
+
+.ajouterrecette img {
+	margin-top:15px;
+    margin-left: 70px;
+}
+
+.ajouterrecette p{
+    margin-left: 15px;
+    margin-top: 18px;
+    width: 250px;
+	line-height: 18px;
+}
+
+.ajouterrecette a{
+	color:#FFF;
+}
+
+
+/*PUB*/
+.pub {
+	background-color:#FFF;
+    border: 4px solid #CDCAC9;
+    height: 350px;
+    margin-top: 30px;
+    width: 292px;
+}
+
+.pub .texte {
+	padding:50px;
+	color:#000;
+	text-align:center;
+	padding-top:100px;
+}
+
+/*DERNIERE RECETTES AJOUTEES*/
+
+.derniereR{
+	margin:30px 0px 0px 10px;
+}
+
+.recettes {
+	float:left;
+	width:145px;
+	margin-right:92px;
+	margin-top:15px;
+}
+
+.recettes span {
+	font-weight:bold;
+}
+
+.recettes p {
+	margin-top:10px;
+}
+
+/*COMMENTAIRES*/
+.commentaire span {
+	color: #cccccc;
+}
+.nom {
+	color: #a7d61d;
+}
+
+
+
+/*FOOTER*/
+
+footer {
+	background-image:url(image-interface/marron.jpg);
+	background-repeat:repeat;
+	height:130px;
+	box-shadow: 1px 1px 40px #555;
+	margin-top:60px;
+}
+
+footer p {
+	font-size:12px;
+	color:#FFF;
+	line-height:15px;
+}
+
+footer a {
+	color: #a7d61d; /*vert*/
+}
+
+footer h4 {
+	font-family: 'Passion One', cursive;
+	font-weight:30;
+	font-size:20px;
+	color:#FFF;
+	border-bottom:solid 1px #FFF;
+	margin-bottom:15px;
+	margin-top:20px;
+}
+
+.mentionlegal {
+	float:left;
+	margin-left:10px;
+	width:300px;
+}
+
+.reseauxsociaux {
+	float:left;
+	margin-left:20px;
+	width:140px;
+}
+
+.contact {
+	float:left;
+	margin-left:20px;
+	width:220px;
+}
+
+footer .titre {
+	padding-top:20px;
+	margin-right:10px;
+}
+footer .titre p{
+	font-family: 'Passion One', cursive; ;
+	font-size:20px;
+	font-weight:50;
+	color:#FFF;
+	text-align:right;
+	line-height:23px;
+}
+
+footer .titre p:first-child{
+	font-family: 'Passion One', cursive; ;
+	font-size:25px;
+	font-weight:50;
+	color: #a7d61d; /*vert*/
+}
+
+
+/*CONTENUPHP*/
+.colGauche .contenuphp h2 {
+	margin-bottom:20px;
+}
+
+.colGauche .contenuphp p {
+	line-height:20px;
+	margin-top:15px;
+}
+
+.colGauche .contenuphp p a{
+	color: #a7d61d; /*vert*/
+	font-weight:bold;
+}
+
+/*INSCRIPTION PHP*/
+.robot {
+	display: none;
+}
+
+/*RECETTE PAGE ACCUEIL PHP*/
+.image a {
+	display: block;
+	height: 100%;
+	color: #000;
+}
+
+.image a p:hover {
+	color: #fff; /*marron*/
+}
+
+.recettes a {
+	color: #000;
+}
+
+.recettes a:hover {
+	color: #a7d61d; /*vert*/
+}
+
+/*CONETENUPHP MEMBRE*/
+.colGauche .contenuphpmembre h2 {
+	margin-bottom:20px;
+}
+
+.colGauche .contenuphpmembre p {
+	line-height:20px;
+	margin-top:5px;
+}
+
+.colGauche .contenuphpmembre p a{
+	color: #523f36; /*marron*/
+	font-weight:bold;
+}
+
+.colGauche .contenuphpmembre .paramettre{
+	border-top:solid 1px #000;
+	margin-top:40px;
+	color:#523f36; /*marron*/
+}
+
+.colGauche >.contenuphpmembre h5{
+	font-size:18px;
+	color: #523f36; /*marron*/
+	line-height:24px;
+}
+
+h6  {
+	color:#F00;
+}
+
+h3 {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	margin:10px 0px 5px 0px;
+	color: #523f36; /*marron*/
+}
+
+#com a{
+	color: #523f36; /*marron*/
+	font-size:12px;
+}
+
+#com a:hover{
+	color: #a7d61d; /*vert*/
+}
+	
+/*BOUTON PHP*/
+
+.contenuphpmembre .bouton2 input {
+	border:none;
+	background-image:url(image-interface/bouton2.jpg);
+	background-repeat:repeat-x;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #000;
+	font-size:14px;
+	cursor: pointer;
+	width:100px;
+	height:25px;
+	margin-top:15px;
+	padding-bottom:6px;
+}
+.contenuphpmembre .bouton2 input:hover {
+	color:#FFF;
+}
+
+.contenuphp .bouton2 input {
+	border:none;
+	background-image:url(image-interface/bouton2.jpg);
+	background-repeat:repeat-x;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #000;
+	font-size:14px;
+	cursor: pointer;
+	width:100px;
+	height:25px;
+	margin-top:15px;
+	padding-bottom:6px;
+}
+.contenuphp .bouton2 input:hover {
+	color:#FFF;
+}
